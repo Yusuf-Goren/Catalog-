@@ -139,9 +139,9 @@ function checkorderFunc() {
   setTimeout(function () {
     if (
       countLettuce < 0 ||
-      countChicken < 0 ||
+      countChicken < 1 ||
       countHamburger < 0 ||
-      countMeatball < 0 ||
+      countMeatball < 1 ||
       countOnion < 0 ||
       countPickle < 0 ||
       countPacketSos < 1 ||
@@ -308,6 +308,7 @@ function neworderFunc() {
     contents: [],
     meatType: [],
     cookType: [],
+    extraItems: [],
   };
   showRestOfMaterials();
 }
