@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#myDIV2 {
+    display: none;
+}
+#myDIV {
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+}
+.title {
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+.title-side {
+    font-size: 35px;
+    color: grey;
+    font-weight: 700;
+}
+
+#ingredient-check {
+    display: none;
+}
+
+
+.ingrediants {
+    display: flex;
+    gap: 10px;
+    margin:10px 0;
+}
+#meatball-cook-options {
+    display: none;
+}
+.btn-group {
+    display: none;
+}
+.control {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 0.5em;
+}
+.prepare-order {
+    display: none;
+        justify-content: center;
+            align-items: center;
+            color: white;
+            flex-direction: column;
+            gap: 1em;
+}
+.sideItems {
+            justify-content: center;
+                align-items: center;
+                color: white;
+}
+.put {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    color: white;
+}
+.serve {
+    display: none;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5em;
+        color: white;
+}
+
+.new-order {
+    display: none;
+        flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 0.5em;
+            color: white;
+}
+.preb-hamburger {
+    display: none;
+}
+.container {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.section {
+        display: flex;
+        flex-direction: column;
+    width: 60%;
+        height: 75%;
+        margin: 50px;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(143, 143, 143);
+            padding: 20px;
+            gap: 10px;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.side-section {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    color:rgb(0, 89, 255)
+}
+
+.gradiants {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
